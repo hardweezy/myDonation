@@ -1,5 +1,6 @@
-// const apiEndPoint = "https://api.hz.dev/api/";
-const apiEndPoint = "https://api.hustlerszone.net/api/";
+//myDonation Endpoint
+const apiEndPoint = "https://api.md.dev/api/";
+
 const env = {
 
     appAPI: apiEndPoint,
