@@ -1,0 +1,18 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600");
+
+// Bootstrap
+//@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+//Bulma
+@import "node_modules/bulma/sass/utilities/_all";
+@import "node_modules/bulma/sass/base/_all";
+@import "node_modules/bulma/sass/elements/_all";
+@import "node_modules/bulma/sass/components/_all";
+@import "node_modules/bulma/sass/grid/_all";
+@import "node_modules/bulma/sass/layout/_all";
+
+@import "node_modules/buefy/src/scss/buefy";
+
+// Custom Styles
+@import "custom.scss";

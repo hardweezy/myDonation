@@ -1,0 +1,126 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "vue-phone-input",
+        "scope": null,
+        "escapedName": "vue-phone-input",
+        "name": "vue-phone-input",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/solomonomokehinde/Sites/hustler-zone-vue"
+    ]
+  ],
+  "_from": "vue-phone-input@latest",
+  "_id": "vue-phone-input@1.0.1",
+  "_inCache": true,
+  "_location": "/vue-phone-input",
+  "_nodeVersion": "8.6.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/vue-phone-input-1.0.1.tgz_1510753616129_0.29210581933148205"
+  },
+  "_npmUser": {
+    "name": "mitrophd",
+    "email": "dmitrophanskiy@gmail.com"
+  },
+  "_npmVersion": "5.3.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "vue-phone-input",
+    "scope": null,
+    "escapedName": "vue-phone-input",
+    "name": "vue-phone-input",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/vue-phone-input/-/vue-phone-input-1.0.1.tgz",
+  "_shasum": "93e92ebe7e146d9d6722a84e7b82f2bdbe8ee71b",
+  "_shrinkwrap": null,
+  "_spec": "vue-phone-input",
+  "_where": "/Users/solomonomokehinde/Sites/hustler-zone-vue",
+  "author": {
+    "name": "Dmitriy Mitrophanskiy",
+    "email": "dmitrophanskiy@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/MitrophD/vue-phone-input/issues"
+  },
+  "dependencies": {},
+  "description": "Vue component for entering and validating international telephone numbers",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "eslint": "^4.7.0",
+    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-html": "^3.2.2",
+    "eslint-plugin-import": "^2.7.0",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "file-loader": "^0.11.2",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.5",
+    "vue": "^2.4.4",
+    "vue-loader": "^13.0.4",
+    "vue-template-compiler": "^2.4.4",
+    "webpack": "^3.6.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-58x4+nT5gyFvbZ3FUtI4zfwXKZpyujdg+Ipsa9xqoMzpZn6K0XZC9x2Rntyrs1jFLFb1fbYIJck6VPLtqQOAzw==",
+    "shasum": "93e92ebe7e146d9d6722a84e7b82f2bdbe8ee71b",
+    "tarball": "https://registry.npmjs.org/vue-phone-input/-/vue-phone-input-1.0.1.tgz"
+  },
+  "gitHead": "7d7521e31c175bbc6d28e85dc0a7457f31898512",
+  "homepage": "https://github.com/MitrophD/vue-phone-input#readme",
+  "keywords": [
+    "vue",
+    "npm",
+    "tel",
+    "phone",
+    "telephone",
+    "mobile",
+    "input",
+    "i18n",
+    "intl",
+    "international",
+    "country",
+    "dial",
+    "code",
+    "mitropd",
+    "js"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "mitrophd",
+      "email": "dmitrophanskiy@gmail.com"
+    }
+  ],
+  "name": "vue-phone-input",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "vue": "^2.4.4"
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MitrophD/vue-phone-input.git"
+  },
+  "scripts": {
+    "build:d": "cross-env NODE_ENV=development webpack",
+    "build:p": "cross-env NODE_ENV=production webpack -p"
+  },
+  "version": "1.0.1"
+}

@@ -1,0 +1,5 @@
+# npmignore
+.DS_Store
+.gitignore
+node_modules
+preview.jpg

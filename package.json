@@ -1,0 +1,39 @@
+{
+  "name": "frontEnd",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch-poll": "npm run watch -- --watch-poll",
+    "hot": "NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.15.3",
+    "bootstrap-sass": "^3.3.7",
+    "browser-sync": "^2.18.13",
+    "browser-sync-webpack-plugin": "^1.2.0",
+    "cross-env": "^3.2.3",
+    "jquery": "^3.1.1",
+    "laravel-mix": "^1.6.1",
+    "lodash": "^4.17.4",
+    "vue-loader": "13.5.0"
+  },
+  "dependencies": {
+    "buefy": "^0.6.1",
+    "bulma": "^0.6.1",
+    "vee-validate": "^2.0.0-rc.21",
+    "vue": "^2.5.5",
+    "vue-loader": "^13.5.0",
+    "vue-moment": "^3.0.0",
+    "vue-phone-input": "^1.0.1",
+    "vue-router": "^3.0.1",
+    "vue-template-compiler": "^2.5.5",
+    "vuex": "^3.0.1"
+  }
+}

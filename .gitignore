@@ -1,0 +1,12 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+
+/node_modules
+/public/css
+/public/js
+/fonts
+.env
+mix-manifest.json
+/resources/scripts/images
+/resources/scripts/js
+/resources/scripts/plugins/*
+!/resources/scripts/plugins/themify-icons
